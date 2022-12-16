@@ -12,10 +12,10 @@ import {
 const HeaderImg = () => {
   return (
     <Box>
-    <Box color="white"
+       <Box color="white"
               pos="absolute"
-              // bottom="88.85%"
-              top="30.4%"
+              bottom="88.85%"
+              top="20.5%"
               w="100%" 
               >
               <Text fontSize='80px' fontWeight="700" >All Apple Originals.</Text>   
