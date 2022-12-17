@@ -15,7 +15,7 @@ const HeaderImg = () => {
        <Box color="white"
               pos="absolute"
               bottom="88.85%"
-              top="20.5%"
+              top="10.5%"
               w="100%" 
               >
               <Text fontSize='80px' fontWeight="700" >All Apple Originals.</Text>   
