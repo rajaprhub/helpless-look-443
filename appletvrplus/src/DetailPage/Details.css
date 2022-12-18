@@ -1,0 +1,47 @@
+ *{
+    padding:  0px;
+    margin: 0px;
+ }
+
+.Head{
+    text-align: left;
+    text-size-adjust: 20px;
+}
+
+.CastBox{
+    display: flex;
+    gap: 10px;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.CastBox img{
+    border-radius: 50%;
+}
+
+.Watch{
+    width: 49%; 
+}
+
+.Head{
+    font-size: 1.5em ;
+    color: black;
+  }
+
+  .trailerBox{
+    width: 99%;
+    margin:  auto;
+    padding: 10px;
+    background-color: whitesmoke; 
+    text-align: left;
+  }
+
+  .watchfree{
+    width: 100%;
+    margin:  auto;
+    padding: 5px;
+    background-color: whitesmoke; 
+
+  }
