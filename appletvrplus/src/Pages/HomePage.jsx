@@ -9,13 +9,10 @@ const Homepage = () => {
   return (
     <div> 
         <HeaderImg/>
-         <h1>Home content starts </h1>
-             <Home/>
-            
-             <FAQ/>
-             <h1>Home content separate </h1>
+              <Home/>
+              <FAQ/>
             <Footer/>
-            <h1>Home content separate </h1>
+         
     </div>
   )
 }

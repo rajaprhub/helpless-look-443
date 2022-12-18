@@ -2,7 +2,8 @@
 import React from "react";
  import { Routes,Route} from "react-router-dom" ;
   import Homepage from "../Pages/HomePage";
-  import Login from "../Components/Login";
+  import SignBtn from "../Components/SignIn";
+  import Details from "../DetailPage/Details";
 
 
 function AllRoutes () {
@@ -10,7 +11,8 @@ function AllRoutes () {
        <div>
         <Routes>
           <Route path="/" element ={<Homepage/>}></Route>
-          <Route path="/login" element ={<Login/>}> </Route>
+          <Route path="/signin" element ={<SignBtn/>}> </Route>
+          <Route path="/details" element ={<Details/>}> </Route>
         </Routes>
        </div>
    )

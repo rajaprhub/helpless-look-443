@@ -25,3 +25,17 @@
     width: 99%; 
     border-radius: 5px;
   }
+
+   
+.wseries{
+  margin: 1px auto;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background-color: whitesmoke; 
+}
+.whseries{
+  text-align: left;
+  font-size: 2.5em; 
+  color: gray;
+}
