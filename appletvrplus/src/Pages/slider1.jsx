@@ -8,11 +8,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./slide.module.css"
 import "./tlide.css"
+import detail from './detail';
  
-import { Navigate, useNavigate} from "react-router-dom"
+import { useNavigate} from "react-router-dom"
 
 export default function Slideone() {
-
+  const navigate=useNavigate()
   const settings = {
     dots: true,
     infinite: true,
@@ -22,7 +23,7 @@ export default function Slideone() {
   }
 
   const handleClick=()=>{
-    Navigate("/Login")
+    navigate("/detail")
   }  
 
   let data1 = [
